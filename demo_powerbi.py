@@ -3,7 +3,7 @@ import time
 import urllib.request   #BI
 from datetime import datetime   #BI
 
-REST_API_URL = "https://api.powerbi.com/beta/ff0bcf0e-368a-4938-a92d-d84cb8180254/datasets/aa1bff63-b119-4a1d-9fcf-c2583ac4845e/rows?key=wWIC%2Bqmp2cP4kxO1kuvJBqijW8cH%2B60CKy1cnSb5MNhkqC3dBUlrghmj41e8oPIiypKoZ1vJgzamOge8U2tvgQ%3D%3D"
+REST_API_URL = "YOUR API KEY"
 
 def upload_powebi(temp):
 		now = datetime.strftime(datetime.now(), "%Y-%m-%dT%H:%M:%S%Z")
