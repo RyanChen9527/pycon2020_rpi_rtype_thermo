@@ -3,7 +3,7 @@ import time
 import urllib.request   #BI
 from datetime import datetime   #BI
 
-REST_API_URL = "YOUR API KEY"
+REST_API_URL = "ENTER_YOUR_API_KEY_HERE"
 
 def upload_powebi(temp):
 		now = datetime.strftime(datetime.now(), "%Y-%m-%dT%H:%M:%S%Z")
